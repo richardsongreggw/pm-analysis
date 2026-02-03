@@ -46,6 +46,23 @@ def generate_slides_pdf():
         # Wait for reveal.js to initialize
         page.wait_for_timeout(2000)
 
+        # Hide speaker notes and ensure slide numbers are visible
+        page.evaluate("""() => {
+            // Hide speaker notes
+            const style = document.createElement('style');
+            style.textContent = `
+                .reveal .speaker-notes,
+                .reveal aside.notes,
+                .reveal .notes {
+                    display: none !important;
+                }
+                .reveal .slide-number {
+                    display: block !important;
+                }
+            `;
+            document.head.appendChild(style);
+        }""")
+
         # Get total number of slides
         total_slides = page.evaluate("""() => {
             return Reveal.getTotalSlides();
