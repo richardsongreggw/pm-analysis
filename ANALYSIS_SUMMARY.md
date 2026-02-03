@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-Analysis of 11,060 Android app reviews identified **6 clear feature requests** (0.05% of all reviews) specifically asking for the ability to view siblings in the pedigree/tree view, matching the functionality already available on the website.
+Analysis of 4,311 Android app reviews with text content identified **6 clear feature requests** (0.14% of reviews with text) specifically asking for the ability to view siblings in the pedigree/tree view, matching the functionality already available on the website.
 
 ---
 
@@ -15,10 +15,10 @@ Analysis of 11,060 Android app reviews identified **6 clear feature requests** (
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
-| **Total Reviews** | 11,060 | 100% |
-| **Reviews with Text** | 4,311 | 39.0% |
-| **Mention Sibling/Family Relationships** | 23 | 0.21% of all reviews<br>0.53% of reviews with text |
-| **Feature Requests for Sibling Viewing** | 6 | 0.05% of all reviews<br>0.14% of reviews with text |
+| **Total Reviews** | 11,060 | - |
+| **Reviews with Text** | 4,311 | 39.0% of total |
+| **Mention Sibling/Family Relationships** | 23 | 0.53% of reviews with text |
+| **Feature Requests for Sibling Viewing** | 6 | 0.14% of reviews with text |
 
 ---
 
@@ -118,7 +118,7 @@ The most detailed complaint (German review, Aug 2024) describes exactly the usab
 
 ## Key Insights
 
-1. **Low but consistent demand**: 0.05% of all reviews explicitly request this feature
+1. **Low but consistent demand**: 0.14% of reviews with text explicitly request this feature
 2. **Website comparison**: Multiple users note the website already has this functionality and prefer it
 3. **Usability pain point**: Users describe having to mentally track relationships and navigate multiple screens
 4. **Trend**: Recent reviews (2024-2025) show increasing mentions of this limitation
@@ -127,7 +127,7 @@ The most detailed complaint (German review, Aug 2024) describes exactly the usab
 
 ## Recommendation Context
 
-While 6 explicit feature requests represents a small percentage (0.05%), this data should be considered alongside:
+While 6 explicit feature requests represents a small percentage (0.14% of reviews with text), this data should be considered alongside:
 - **Parity with website**: Users explicitly compare and prefer the website's sibling view
 - **Usability improvement**: Users describe concrete workflow friction the feature would solve
 - **Consistent requests**: Requests span the entire 3-year period with increasing frequency
