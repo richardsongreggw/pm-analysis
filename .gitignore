@@ -20,6 +20,11 @@ data/processed/*
 *.xls
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+# Exception: Allow specific processed outputs
+!data/sibling_mentions.csv
+!data/processed/*.json
+# Exception: Allow competitor screenshots
+!data/screenshots/
 
 # Environment variables
 .env
@@ -28,6 +33,8 @@ data/processed/*
 .DS_Store
 Thumbs.db
 
-# Reports (uncomment if you want to version control these)
-# reports/*.pdf
-# reports/*.html
+# Presentations - Include deliverables
+# Allow presentation artifacts
+!presentations/
+!presentations/*.html
+!presentations/*.pdf

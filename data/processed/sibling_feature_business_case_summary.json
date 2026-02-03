@@ -1,0 +1,31 @@
+{
+  "report_date": "2026-02-03",
+  "recommendation": "Add sibling affordance to mobile pedigree view",
+  "rationale": [
+    "Market Standard: All major competitors (Ancestry, MyHeritage, FindMyPast) have this feature",
+    "Customer Voice: Users explicitly requesting feature in reviews",
+    "Proven Value: 38.1% of web users actively use this feature"
+  ],
+  "web_analytics": {
+    "date_range": "Nov 5, 2025 - Feb 2, 2026",
+    "pedigree_views": 1557708,
+    "ancestors_toggled": 1047944,
+    "siblings_toggled_total": 593667,
+    "siblings_after_ancestors": 514746,
+    "sibling_pct_all_users": 38.11157161676001,
+    "sibling_pct_ancestor_users": 49.11960944477949
+  },
+  "mobile_feedback": {
+    "total_reviews": 11060,
+    "reviews_with_text": 4311,
+    "sibling_mentions": 23,
+    "pct_of_all_reviews": 0.20795660036166366,
+    "pct_of_text_reviews": 0.5335189051264208
+  },
+  "competitive_status": {
+    "Ancestry": "Has sibling view",
+    "MyHeritage": "Has sibling view",
+    "FindMyPast": "Has sibling view",
+    "FamilySearch": "Missing from mobile"
+  }
+}
